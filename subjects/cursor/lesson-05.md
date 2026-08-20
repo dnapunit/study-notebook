@@ -46,7 +46,7 @@ If you want the index row updated for you, switch to [Agent](lesson-02.md) and u
 |-----------|------|---------|
 | You only want more questions | Ask | `@lesson-05.md` quiz again |
 | You want a new lesson or status change | Agent | `Add a practice question to lesson-05 of cursor.` |
-| The next chunk is big or unclear | Plan | `Plan lesson 06; don’t write it yet.` (this subject stops at 05 unless you ask for more) |
+| The next chunk is big or unclear | Plan | `Plan the beginner project sitting; don’t edit files yet.` Then the beginner project, then lesson 06. |
 
 ### When you are stuck
 
@@ -82,7 +82,7 @@ A 20-minute session on this subject:
 2. Chat, Ask: `@lesson-05.md` then `Quiz me on lesson-05 of cursor. Do not show answers until I try.`
 3. After five questions, open `subjects/cursor/index.md` and read the learning path.
 4. If lessons 01–05 all exist and you understand the loop, Agent: `Mark lesson-05 of cursor as done in index.md and update the media inventory.` (You can wait until you have actually studied; do not mark ✅ only because the file exists.)
-5. Next session: `@index.md` → `Suggest what to study next in cursor.` If this path is finished, start a different subject from the book [index.md](../../index.md).
+5. Next session: `@index.md` → `Suggest what to study next in cursor.` After 05, that should be the [beginner project](project-beginner.md), then lesson 06 — not a skip to advanced.
 
 ## Practice questions
 
@@ -98,9 +98,9 @@ A 20-minute session on this subject:
 
 <details><summary>Answer</summary>Plan — see the steps before folders get created.</details>
 
-4. The agent tells you to open `lesson-06.md`, but this subject only planned five lessons and Explorer has no 06. What do you do?
+4. The agent tells you to open `lesson-16.md`, but Explorer has no 16. What do you do?
 
-<details><summary>Answer</summary>Trust Explorer. There is no lesson 06 until you ask to add one. Do not invent the file.</details>
+<details><summary>Answer</summary>Trust Explorer. There is no lesson 16 until you ask to add one. Do not invent the file.</details>
 
 5. Where do you copy a “summarize my progress” prompt from?
 
@@ -112,8 +112,8 @@ Ask the agent: `Quiz me on lesson-05.` (5 short questions, mixed recall + applic
 
 ## Summary
 
-One loop: read the file, `@` it, quiz, check the learning path, then Ask / Agent / Plan for the next move. When chat and the folder disagree, the folder wins. This Cursor path is five lessons; more subjects start from [ASK.md](../../ASK.md) and the book index.
+One loop: read the file, `@` it, quiz, check the learning path, then Ask / Agent / Plan for the next move. When chat and the folder disagree, the folder wins. Beginner lessons 01–05 end here; next is the beginner project, then intermediate 06.
 
 ## Next
 
-This subject’s planned path ends here. Review from [`index.md`](index.md), or start another subject with a prompt from [ASK.md](../../ASK.md).
+→ [Beginner project](project-beginner.md) (one full study loop)
