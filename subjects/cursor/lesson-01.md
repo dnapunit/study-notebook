@@ -99,4 +99,4 @@ Cursor is one window: files on the side, the open lesson in the middle, chat for
 
 ## Next
 
-→ [Lesson 02](lesson-02.md) (Ask, Agent, and Plan) — not written yet. Ask when you want it.
+→ [Lesson 02](lesson-02.md) (Ask, Agent, and Plan)
