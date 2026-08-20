@@ -109,4 +109,4 @@ Ask explains and leaves files alone. Agent changes the book when you ask. Plan s
 
 ## Next
 
-→ [Lesson 03](lesson-03.md) (`@` files and what the agent can see) — not written yet. Ask when you want it.
+→ [Lesson 03](lesson-03.md) (`@` files and what the agent can see)
