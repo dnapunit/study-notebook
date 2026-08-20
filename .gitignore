@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# Large media — keep on disk, not in git
+**/video.mp4
+**/audio.mp3
+**/*.mkv
+**/*.webm
+**/*.m4a
+**/*.wav
+**/*.ogg
+**/*.mp4
+**/*.mp3
