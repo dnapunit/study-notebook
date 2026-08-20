@@ -55,8 +55,19 @@ Opening `lesson-01.md` lets you read. `@`-mentioning that same file in chat (cov
 
 - 🎥 Video: missing
 - 🔊 Audio: missing
-- 🖼️ Image: missing — put file in `images/`, or link a URL
-- 📊 Diagram: missing — a labeled screenshot of the Cursor window (Explorer / editor / chat) would help here
+- 🖼️ Image: generated labeled diagram, not a Cursor screenshot
+
+  ![Explorer, editor, and chat as three panels](images/lesson-01-window.png)
+
+- 📊 Diagram:
+
+```mermaid
+flowchart LR
+  explorer[Explorer]
+  editor[Editor]
+  chat[Chat]
+  explorer --- editor --- chat
+```
 
 ## Worked example
 

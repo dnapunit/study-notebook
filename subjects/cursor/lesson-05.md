@@ -59,8 +59,20 @@ If you want the index row updated for you, switch to [Agent](lesson-02.md) and u
 
 - 🎥 Video: missing
 - 🔊 Audio: missing
-- 🖼️ Image: missing — put file in `images/`, or link a URL
-- 📊 Diagram: missing — a cycle diagram (read → `@` quiz → index → next) would help here
+- 🖼️ Image: generated labeled diagram, not a Cursor screenshot
+
+  ![Study loop: read, quiz, index, next](images/lesson-05-study-loop.png)
+
+- 📊 Diagram:
+
+```mermaid
+flowchart LR
+  read[Read]
+  quiz["@ quiz"]
+  idx[Index]
+  next[Next]
+  read --> quiz --> idx --> next --> read
+```
 
 ## Worked example
 

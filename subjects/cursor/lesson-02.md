@@ -63,8 +63,19 @@ If you pick the “wrong” mode, switch and ask again. The files in Explorer ar
 
 - 🎥 Video: missing
 - 🔊 Audio: missing
-- 🖼️ Image: missing — put file in `images/`, or link a URL
-- 📊 Diagram: missing — a three-column sketch (Ask = talk, Agent = files, Plan = outline) would help here
+- 🖼️ Image: generated labeled diagram, not a Cursor screenshot
+
+  ![Ask, Agent, and Plan as three columns](images/lesson-02-modes.png)
+
+- 📊 Diagram:
+
+```mermaid
+flowchart LR
+  askMode["Ask: talk"]
+  agentMode["Agent: files"]
+  planMode["Plan: outline"]
+  askMode --- agentMode --- planMode
+```
 
 ## Worked example
 

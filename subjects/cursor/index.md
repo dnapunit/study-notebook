@@ -58,12 +58,12 @@ Scan this table (or search the book for `missing`) to see what media gaps remain
 
 | Lesson | Video | Audio | Image | Diagram |
 |--------|-------|-------|-------|---------|
-| 01 | missing | missing | missing | missing |
-| 02 | missing | missing | missing | missing |
-| 03 | missing | missing | missing | missing |
-| 04 | missing | missing | missing | missing |
-| 05 | missing | missing | missing | missing |
+| 01 | missing | missing | lesson-01-window.png | mermaid |
+| 02 | missing | missing | lesson-02-modes.png | mermaid |
+| 03 | missing | missing | lesson-03-at-mention.png | mermaid |
+| 04 | missing | missing | lesson-04-ask-flow.png | mermaid |
+| 05 | missing | missing | lesson-05-study-loop.png | mermaid |
 
 ## Progress notes
 
-All five planned lessons are written (draft, 🟡). Mark ✅ after you study each one. Media is still `missing` throughout.
+All five planned lessons are written (draft, 🟡). Mark ✅ after you study each one. Generated labeled images and mermaid diagrams added; video and audio still `missing`.

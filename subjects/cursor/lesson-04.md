@@ -66,8 +66,20 @@ For a new lesson file you still want [Agent](lesson-02.md). For a quiz only, [As
 
 - 🎥 Video: missing
 - 🔊 Audio: missing
-- 🖼️ Image: missing — put file in `images/`, or link a URL
-- 📊 Diagram: missing — a flow “open ASK.md → copy prompt → `@` file → send” would help here
+- 🖼️ Image: generated labeled diagram, not a Cursor screenshot
+
+  ![Open ASK.md, copy prompt, @ file, send](images/lesson-04-ask-flow.png)
+
+- 📊 Diagram:
+
+```mermaid
+flowchart TD
+  openAsk[Open ASK.md]
+  copyPrompt[Copy prompt]
+  atFile["@ file"]
+  send[Send]
+  openAsk --> copyPrompt --> atFile --> send
+```
 
 ## Worked example
 

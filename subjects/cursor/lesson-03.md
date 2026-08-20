@@ -52,8 +52,19 @@ If an answer cites a file that does not exist, believe [Explorer](lesson-01.md),
 
 - 🎥 Video: missing
 - 🔊 Audio: missing
-- 🖼️ Image: missing — put file in `images/`, or link a URL
-- 📊 Diagram: missing — a sketch of chat with `@lesson-01.md` attached to a message would help here
+- 🖼️ Image: generated labeled diagram, not a Cursor screenshot
+
+  ![Chat message with @lesson-01.md attached](images/lesson-03-at-mention.png)
+
+- 📊 Diagram:
+
+```mermaid
+flowchart LR
+  you[You]
+  atFile["@ file"]
+  context[Agent context]
+  you --> atFile --> context
+```
 
 ## Worked example
 
